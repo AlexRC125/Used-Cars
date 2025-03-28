@@ -19,12 +19,17 @@ h1{
     background-color: #9AE19D ;
 }
 
-.nav-item{
-  background-color: #DAD65F;
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 150px;
 }
-.card{
-  width: ;
-}
+
 .card-body{
   background-color: #2C302E;
 }
@@ -37,14 +42,13 @@ color: #DAD65F;
     height: 200px;
     margin: 5px;
     width: 220px;
-    background: #333;
+    background: #537A5A;
     justify-content: center;
     align-items: center;
-    border: solid #000000 1px;
+    border: solid #537A5A 1px;
     font-size: 16px;
-    color: rgb(161, 161, 161);
+    color: #DAD65F;
     border-radius: 10px;
-    background: linear-gradient(145deg, #2e2d2d, #212121);
   }
 
   /* From Uiverse.io by Kabak */ 
@@ -52,7 +56,7 @@ color: #DAD65F;
   height: 50px;
   margin: 5px;
   width: 120px;
-  background: #333;
+  background: #909590;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -61,17 +65,12 @@ color: #DAD65F;
   -ms-flex-align: center;
   align-items: center;
   font-family: Consolas, Courier New, monospace;
-  border: solid #404c5d 1px;
+  border: solid #909590 1px;
   font-size: 16px;
-  color: rgb(161, 161, 161);
+  color: black;
   -webkit-transition: 500ms;
   transition: 500ms;
   border-radius: 5px;
-  background: linear-gradient(145deg, #2e2d2d, #212121);
-  -webkit-box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
-    inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
-  box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
-    inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
 }
 
 button:hover {
